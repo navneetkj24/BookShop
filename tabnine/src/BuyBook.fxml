@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="btnNext" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="buyBooksController">
+   <children>
+      <TextField fx:id="txtBookID" layoutX="210.0" layoutY="148.0" />
+      <TextField fx:id="txtBookAuthor" layoutX="210.0" layoutY="200.0" />
+      <TextField fx:id="txtBookPrice" layoutX="210.0" layoutY="250.0" />
+      <TextField fx:id="txtBookName" layoutX="210.0" layoutY="91.0" />
+      <Label layoutX="257.0" layoutY="29.0" text="Book Shop" />
+      <Label layoutX="87.0" layoutY="95.0" text="Book Name" />
+      <Label layoutX="87.0" layoutY="152.0" text="Book ID" />
+      <Label layoutX="87.0" layoutY="204.0" text="Book Author" />
+      <Label layoutX="90.0" layoutY="254.0" text="Book Price" />
+      <Button fx:id="btnSearchBook" layoutX="210.0" layoutY="307.0" mnemonicParsing="false" onAction="#searchBook" text="Search Book" />
+      <Button fx:id="btnNext" layoutX="491.0" layoutY="16.0" mnemonicParsing="false" onAction="#next" text="Next" />
+      <Button fx:id="btnSelectBook" layoutX="300.0" layoutY="307.0" mnemonicParsing="false" onAction="#selectBook" text="Select Book" />
+   </children>
+</AnchorPane>
